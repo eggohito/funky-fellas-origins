@@ -14,7 +14,7 @@
                     "y": 1,
                     "condition": {
                         "type": "origins:in_tag",
-                        "tag": "bfforigins:tall_foliage"
+                        "tag": "funky_fellas:tall_foliage"
                     }
                 },
                 "radius": 1.0,
@@ -32,12 +32,12 @@
                             "y": 1,
                             "condition": {
                                 "type": "origins:in_tag",
-                                "tag": "bfforigins:tall_foliage"
+                                "tag": "funky_fellas:tall_foliage"
                             }
                         },
                         {
                             "type": "origins:in_tag",
-                            "tag": "bfforigins:tall_foliage"
+                            "tag": "funky_fellas:tall_foliage"
                         }
                     ]
                 }
