@@ -1,0 +1,10 @@
+{
+    "type": "origins:modify_harvest",
+    "block_condition": {
+        "type": "origins:in_tag",
+        "tag": "funky_fellas:treasure-like"
+    },
+    "allow": true,
+    "name": "Greed: Persistence",
+    "description": "You can obtain treasure-like blocks regardless of using their proper tools"
+}

@@ -1,0 +1,14 @@
+{
+    "type": "origins:modify_break_speed",
+    "block_condition": {
+        "type": "origins:in_tag",
+        "tag": "funky_fellas:treasure-like"
+    },
+    "modifier": {
+        "operation": "addition",
+        "value": 0.2,
+        "name": "Quick Grab"
+    },
+    "name": "Greed: Hoarding",
+    "description": "You can mine a treasure-like block faster than mining other blocks"
+}

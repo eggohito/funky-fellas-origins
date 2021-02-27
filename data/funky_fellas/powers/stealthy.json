@@ -1,0 +1,49 @@
+{
+    "type": "origins:model_color",
+    "alpha": 0.15,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:sneaking"
+            },
+            {
+                "type": "origins:block_in_radius",
+                "block_condition": {
+                    "type": "origins:offset",
+                    "y": 1,
+                    "condition": {
+                        "type": "origins:in_tag",
+                        "tag": "bfforigins:tall_foliage"
+                    }
+                },
+                "radius": 1.0,
+                "shape": "cube",
+                "comparison": ">=",
+                "compare_to": 4
+            },
+            {
+                "type": "origins:in_block",
+                "block_condition": {
+                    "type": "origins:and",
+                    "conditions": [
+                        {
+                            "type": "origins:offset",
+                            "y": 1,
+                            "condition": {
+                                "type": "origins:in_tag",
+                                "tag": "bfforigins:tall_foliage"
+                            }
+                        },
+                        {
+                            "type": "origins:in_tag",
+                            "tag": "bfforigins:tall_foliage"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "name": "Stealthy",
+    "description": "Sneaking in a patch of tall foliage will make one semi-transparent"
+}

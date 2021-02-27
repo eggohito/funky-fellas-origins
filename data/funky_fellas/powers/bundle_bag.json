@@ -1,0 +1,6 @@
+{
+    "type": "origins:inventory",
+    "drop_on_death": true,
+    "name": "Bundle Bag",
+    "description": "You have an additional 9 slots of inventory, unlike Shulks however, they drop on death"
+}

@@ -1,0 +1,18 @@
+{
+    "powers": [
+        "origins:fragile",
+        "origins:tailwind",
+        "origins:light_armor",
+
+        "funky_fellas:stealthy",
+        "funky_fellas:bundle_bag",
+        "funky_fellas:small_stature",
+        "funky_fellas:greed/hoarding",
+        "funky_fellas:greed/persistence"
+    ],
+    "icon": "minecraft:gold_ingot",
+    "order": 10,
+    "impact": 1,
+    "name": "Goblin",
+    "description": "Goblins are small, common race of goblinoids. They are thought to have been created by hobgoblins to serve as scouts and infiltrators"
+}
